@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline Elements Example - Airport</title>
+  <style>
+    p
+    {
+      padding:          10px;
+      background-color: lightblue;
+      font-size:        40px;
+      color:            white;
+    }
+    #firstline
+    {
+      text-align: right;
+    }
+    #secondline
+    {
+      text-align: center;
+    }
+    #lastline
+    {
+      text-align: left;
+    }
+    .firstl1
+    {
+        margin-right: 100px;
+    }
+    .lastl3
+    {
+        margin-left: 100px;
+    }
+    .firstl2
+    {
+        margin-right: -100px;
+    }
+    .lastl2
+    {
+        margin-right: 100px;
+    }
+    p .middlel2
+    {
+        font-size: 70px;
+        color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <p id=firstline>
+    <span class="firstl1">&#9992;</span>
+    <span class="lastl1">&#9992;</span>
+  </p>
+  <p id=secondline>
+    <span class="firstl2">&#9992;</span><br>
+    <span class="middlel2">&#9992;</span><br>
+    <span class="lastl2">&#9992;</span>
+  </p>
+  <p id=lastline>
+    <span class="firstl3">&#9992;</span>
+    <span class="lastl3">&#9992;</span>
+  </p>
+
+
+</body>
+</html>
